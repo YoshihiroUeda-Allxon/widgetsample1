@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Allxon-widget sample-</title>
+    <meta charset="utf-8" />
+    <link href="test.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <h1>Widget Sample</h1>
+
+   <table class="design01">
+ <tr>
+  <th>機器番号</th>
+  <th>状態</th>
+  <th>操作</th>
+  </tr>
+ <tr>
+  <td>001</td>
+  <td>オンライン</td>
+  <td><label class="selectbox-1"><form name="formlink">
+<select name="selectlink" onchange="if(document.formlink.selectlink.value){window.open(document.formlink.selectlink.value, '_blank');}"value>
+<option SELECTED>▼ 下から選択してください</option>
+        <option value="https://www.allxon.com/ja-jp/"target="_blank">電源ON</option>
+        <option value="https://www.allxon.com/ja-jp/"target="_blank">電源OFF</option>
+　　<option value="https://www.allxon.com/ja-jp/"target="_blank">CSC</option>
+    </select>
+</label>
+  </td>
+  
+ </tr>
+ <tr>
+  <td>002</td>
+  <td>オンライン</td>
+    <td><label class="selectbox-1"><form name="formlink">
+<select name="selectlink" onchange="if(document.formlink.selectlink.value){window.open(document.formlink.selectlink.value, '_blank');}"value>
+<option SELECTED>▼ 下から選択してください</option>
+        <option value="https://www.allxon.com/ja-jp/"target="_blank">電源ON</option>
+        <option value="https://www.allxon.com/ja-jp/"target="_blank">電源OFF</option>
+　　<option value="https://www.allxon.com/ja-jp/"target="_blank">CSC</option>
+    </select>
+</label>
+  </td>
+ </tr>
+ <tr>
+  <td>003</td>
+  <td>オフライン</td>
+    <td><label class="selectbox-1"><form name="formlink">
+<select name="selectlink" onchange="if(document.formlink.selectlink.value){window.open(document.formlink.selectlink.value, '_blank');}"value>
+<option SELECTED>▼ 下から選択してください</option>
+        <option value="https://www.allxon.com/ja-jp/"target="_blank">電源ON</option>
+        <option value="https://www.allxon.com/ja-jp/"target="_blank">電源OFF</option>
+　　<option value="https://www.allxon.com/ja-jp/"target="_blank">CSC</option>
+    </select>
+</label>
+  </td>
+ </tr>
+</table>
+
+  </body>
+</html>
