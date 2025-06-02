@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Allxon Widget Sample</title>
+  <link href="test.css" rel="stylesheet" />
+</head>
+<body>
+  <h1>Widget Sample</h1>
+
+  <table class="design01">
+    <tr>
+      <th>機器番号</th>
+      <th>状態</th>
+      <th>操作</th>
+    </tr>
+
+    <tr>
+      <td>001</td>
+      <td>オンライン</td>
+      <td>
+        <form name="formlink001">
+          <label class="selectbox-1">
+            <select name="selectlink" onchange="if(this.value){window.open(this.value, '_blank');}">
+              <option selected>▼ 下から選択してください</option>
+              <option value="https://www.allxon.com/ja-jp/">電源ON</option>
+              <option value="https://www.allxon.com/ja-jp/">電源OFF</option>
+              <option value="https://www.allxon.com/ja-jp/">CSC</option>
+            </select>
+          </label>
+        </form>
+      </td>
+    </tr>
+
+    <tr>
+      <td>002</td>
+      <td>オンライン</td>
+      <td>
+        <form name="formlink002">
+          <label class="selectbox-1">
+            <select name="selectlink" onchange="if(this.value){window.open(this.value, '_blank');}">
+              <option selected>▼ 下から選択してください</option>
+              <option value="https://www.allxon.com/ja-jp/">電源ON</option>
+              <option value="https://www.allxon.com/ja-jp/">電源OFF</option>
+              <option value="https://www.allxon.com/ja-jp/">CSC</option>
+            </select>
+          </label>
+        </form>
+      </td>
+    </tr>
+
+    <tr>
+      <td>003</td>
+      <td>オフライン</td>
+      <td>
+        <form name="formlink003">
+          <label class="selectbox-1">
+            <select name="selectlink" onchange="if(this.value){window.open(this.value, '_blank');}">
+              <option selected>▼ 下から選択してください</option>
+              <option value="https://www.allxon.com/ja-jp/">電源ON</option>
+              <option value="https://www.allxon.com/ja-jp/">電源OFF</option>
+              <option value="https://www.allxon.com/ja-jp/">CSC</option>
+            </select>
+          </label>
+        </form>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
