@@ -134,7 +134,7 @@ button {
  
 .site-header {
   position: relative;
-  background-color: #def7ff; }
+  background-color: #3366FF; }
  
 .site-header__wrapper {
   padding-top: 1rem;
@@ -157,7 +157,7 @@ button {
     right: 0;
     left: 0;
     z-index: -1;
-    background-color: #d9f0f7;
+    background-color: #3366FF;
     visibility: hidden;
     opacity: 0;
     transform: translateY(-100%);
