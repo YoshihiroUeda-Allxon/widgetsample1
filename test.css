@@ -123,3 +123,15 @@ button {
 .selectbox-1 select:focus {
   outline: 2px solid #2589d0;
 }
+
+ul {
+　　overflow:hidden;
+　　list-style:none;
+　　margin: 0 auto;
+　　z-index: 20;
+}
+
+ul li {
+　 display: inline-block;
+ 　padding: 26px 10px 20px 10px;
+}
